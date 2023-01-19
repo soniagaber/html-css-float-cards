@@ -1,0 +1,32 @@
+*{box-sizing: border-box;
+margin: 0;
+border: 0;}
+
+#container{width: 800px;
+margin:0 auto;
+background-color: blue;}
+
+header{
+    height: 70px;
+    background-color: aqua;
+}
+
+section:first-of-type{
+    height: 80px;
+    background-color: orange;
+}
+
+.card{
+    background-color: brown;
+    height: 75px;
+    width: 33%;
+    border: 1px solid black;
+}
+
+.left{float: left;}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
