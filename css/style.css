@@ -39,3 +39,8 @@ section:first-of-type{
 
 img{height: 75px;
 float: left;}
+
+h3, .card div{color: white;}
+
+a{color: #2B98DF;
+text-decoration: none;}
