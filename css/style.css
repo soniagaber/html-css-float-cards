@@ -24,11 +24,15 @@ section:first-of-type{
 .card{
     background-color:#0F0E17;
     height: 75px;
-    width: 33%;
+    width: 31%;
     border: 1px solid black;
 }
 
 .left{float: left;}
+
+.right{float: right;}
+
+.center{float: center;}
 
 .clearfix::after{
     content: "";
@@ -43,3 +47,9 @@ h3, .card div{color: white;}
 
 a{color: #2B98DF;
 text-decoration: none;}
+
+#card4, #card5, #card6{margin-top: 30px;}
+
+#card1, #card2, #card4, #card5{
+    margin-right: 3.5%;
+}
